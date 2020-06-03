@@ -24,7 +24,7 @@
     <script>
       setInterval(function() {
                       window.location.reload();
-                    }, 3000000);
+                    }, 300000);
 
       var urlParams = new URLSearchParams( window.location.search );
       var SETTINGS  = {
@@ -34,10 +34,6 @@
         loop       : 1,
         index      : 0,
       };
-
-      var array = [5, 150, 20, 500, 70, 90, 120, 200]
-      var randomTime = Math.floor(Math.random() * 8);
-      array[randomTime];
       // -----------------------------------------------------------------------
 
       var tag = document.createElement('script');
@@ -47,6 +43,7 @@
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
       // -----------------------------------------------------------------------
+
 
       var player;
 
@@ -159,9 +156,6 @@
 
       }
       // onPlayerReady()
-
-
-
 
 
 
